@@ -1,1 +1,297 @@
-Hello
+<html>
+
+<head>
+<title>Bo Li's home page</title>
+<style type="text/css" media="screen">
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td {
+  border: 0pt none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0pt;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0pt;
+  padding: 0pt;
+  vertical-align: baseline;
+}
+
+a {
+  color: #1772d0;
+  text-decoration:none;
+}
+
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+}
+
+a.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+b.paper {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+* {
+  margin: 0pt;
+  padding: 0pt;
+}
+
+body {
+  position: relative;
+  margin: 3em auto 2em auto;
+  width: 800px;
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #eee;
+}
+
+h2 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+strong {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+ul {
+  list-style: circle;
+}
+
+img {
+  border: none;
+}
+
+li {
+  padding-bottom: 0.5em;
+  margin-left: 1.4em;
+}
+
+strong, b {
+	font-weight:bold;
+}
+
+em, i {
+	font-style:italic;
+}
+
+div.section {
+  clear: both;
+  margin-bottom: 1.5em;
+  background: #eee;
+}
+
+div.spanner {
+  clear: both;
+}
+
+div.paper {
+  clear: both;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em 1em 1em 1em;
+}
+
+div.paper div {
+  padding-right: 230px;
+}
+
+div.paper div.wide {
+  padding-right: 0px;
+}
+
+img.paper {
+  margin-bottom: 0.5em;
+  float: right;
+  width: 200px;
+}
+
+span.blurb {
+  font-style:italic;
+  display:block;
+  margin-top:0.75em;
+  margin-bottom:0.5em;
+}
+
+pre, code {
+  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+  margin: 1em 0;
+  padding: 0;
+}
+
+div.paper pre {
+  font-size: 0.9em;
+}
+
+</style>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7953909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script type="text/javascript" src="js/hidebib.js"></script>
+
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+ rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 200px;">
+  <div style="margin: 0 auto; width: 70%; line-height: 130%;">
+    <img title="lb" style="float: right; padding-right: .5em; height: 200px;" src="images/lb-small.jpg" />
+    <div style="padding-left: 1em; vertical-align: top; height: 250px;">
+      <span style="font-size: 16pt; line-height: 130%;">Bo Li</span><br />
+      <span>SenseTime Researcher</span><br />
+      <br />
+    </div>
+  </div>
+</div>
+
+<div style="clear: both;"><!-- page div -->
+
+<!---
+<div class="section">
+<h2>Research</h2>
+  <div class="paper">
+    I'm interested in algorithms for <strong>visual object tracking</strong>
+    (<em>single object tracking, multiple object tracking</em>).
+  </div>
+</div>
+-->
+
+<div class="section">
+<h2>About me / bio</h2>
+  <div class="paper">
+  I am a researcher at SenseTime. Before that, I revieced my Bachelor of Computer Science from Beihang University.
+  I'm interested in algorithms for <strong>visual object tracking</strong>
+    (<em>single object tracking, multiple object tracking</em>).
+  </div>
+</div>
+
+
+<div class="section">
+<h2 id="reports">Tech Reports</h2>
+  <!--------------------------------------------------------------------------->
+  <div class="paper" id="li2019siamrpn++">
+      <div class="wide">
+        <img class="paper" style="height:70px"title="SiamRPN++: Evolution of Siamese Visual Tracking with Very Deep Networks" src="images/siamrpn++.jpg" />
+        <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'li2019siamrpn++']);" href="https://arxiv.org/pdf/2019.">SiamRPN++: Evolution of Siamese Visual Tracking with Very Deep Networks</a><br />
+        <strong>Bo Li*</strong>, Qiang Wang*, Fangyi Zhang*, Wei Wu, Junliang Xing, Junjie Yan<br />
+        arXiv preprint Jan., 2019 <br />
+        <a href="lb1100.github.io/SiamRPN++">project</a> / 
+        <a shape="rect" href="javascript:togglebib('li2019siamrpn++')" class="togglebib">bibtex</a>
+        <pre xml:space="preserve">
+    @article{li2019siamrpn++,
+      Author    = {Bo Li and Qiang Wang and Fangyi Zhang and Wei Wu and Junliang Xing and Junjie Yan},
+      Title     = {SiamRPN++: Evolution of Siamese Visual Tracking with Very Deep Networks},
+      Journal   = {arXiv preprint arXiv:2019.},
+      Year      = {2019}}
+        </pre>
+      </div>
+    </div>
+  <!--------------------------------------------------------------------------->
+
+  <!--------------------------------------------------------------------------->
+</div>
+
+<div class="section">
+    <h2 id="reports">Publications</h2>
+
+    
+    <div class="paper" id="Zhu_2018_ECCV">
+        <!--
+        <img class="paper" title="Distractor-aware Siamese Networks for Visual Object Tracking" src="images/dasiamrpn.jpg" />
+        -->
+      <div class="wide">
+        <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'Zhu_2018_ECCV']);" 
+        href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Zheng_Zhu_Distractor-aware_Siamese_Networks_ECCV_2018_paper.pdf">
+          Distractor-aware Siamese Networks for Visual Object Tracking</a><br />
+          Zheng Zhu, Qiang Wang, <strong>Bo Li</strong>, Wei Wu, Junjie Yan, Weiming Hu<br />
+        The European Conference on Computer Vision (ECCV) 2018 <br/> 
+        <a href="https://github.com/foolwood/DaSiamRPN">code</a> / 
+        <a shape="rect" href="javascript:togglebib('Zhu_2018_ECCV')" class="togglebib">bibtex</a>
+        <pre xml:space="preserve">
+            @InProceedings{Zhu_2018_ECCV,
+              author = {Zhu, Zheng and Wang, Qiang and Li, Bo and Wu, Wei and Yan, Junjie and Hu, Weiming},
+              title = {Distractor-aware Siamese Networks for Visual Object Tracking},
+              booktitle = {The European Conference on Computer Vision (ECCV)},
+              month = {September},
+              year = {2018}
+              }
+        </pre>
+      </div>
+    </div>
+
+
+    <div class="paper" id="Li_2018_CVPR">
+        <img class="paper" title="High Performance Visual Tracking with Siamese Region Proposal Network" src="images/siamrpn.jpg" />
+      <div class="wide">
+        <a class="paper" onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'Li_2018_CVPR']);" href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf">High Performance Visual Tracking with Siamese Region Proposal Network</a><br />
+        <strong>Bo Li</strong>, Junjie Yan, Wei Wu, Zheng Zhu, Xiaolin Hu<br />
+        The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2018 <br/> 
+        <strong>Spotlight</strong> <br/>
+        <a shape="rect" href="javascript:togglebib('Li_2018_CVPR')" class="togglebib">bibtex</a>
+        <pre xml:space="preserve">
+          @InProceedings{Li_2018_CVPR,
+            author = {Li, Bo and Yan, Junjie and Wu, Wei and Zhu, Zheng and Hu, Xiaolin},
+            title = {High Performance Visual Tracking With Siamese Region Proposal Network},
+            booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+            month = {June},
+            year = {2018}
+            }
+        </pre>
+      </div>
+    </div>
+
+</div>
+
+</div><!-- close page div -->
+
+<div style="clear:both;">
+  <p align="right"><font size="2">Erd&ouml;s = 3 (via two paths)</font></p><br />
+  <p align="right"><font size="2"><a href="http://jonbarron.info">I like this website</a></font></p><br />
+</div>
+
+<script xml:space="preserve" language="JavaScript">
+hideallbibs();
+hideallabs();
+</script>
+
+</body>
+
+</html>
